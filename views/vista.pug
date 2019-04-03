@@ -1,0 +1,11 @@
+doctype html
+html
+	head
+		meat(charset="utf-8")
+		title Títulos de libros
+	body
+		h1 Títulos biblioteca
+		if registros
+			ul
+				each registro in registros
+					li #{registro.titulo}
